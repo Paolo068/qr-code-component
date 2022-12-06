@@ -18,6 +18,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+Highly responsive qr code component. Text and layout are perfectly centered and scale according to the screen sizes.
 
 ### Screenshot
 
@@ -33,11 +34,14 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
-
+- I started by building the scaffold with HTML5
+- After I added some some styles
+  - I Used `clamp()` css function for the text to scale gently
+    
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS BEM methodolgy
 - Flexbox
 - Mobile-first workflow
 
